@@ -1,0 +1,104 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    font-family: var(--font-family);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    font-family: var(--font-family);
+    height: 93.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .calc-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+  }
+  .calc-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+  .buttons {
+    display: none;
+  }
+  .buttons_mob {
+    display: flex;
+    justify-content: center;
+  }
+  .btn_mob button {
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  /* Add Button */
+  #add_mob {
+    background-color: green;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  #add_mob:hover {
+    box-shadow: #fff 0px 3px 8px 3px;
+  }
+  /* Subtraction Button */
+  #subt_mob {
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  #subt_mob:hover {
+    box-shadow: #fff 0px 3px 8px 3px;
+  }
+  /* Multiply Button */
+  #mult_mob {
+    background: blue;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  #mult_mob:hover {
+    box-shadow: #fff 0px 3px 8px 3px;
+  }
+  /* Divide Button */
+  #div_mob {
+    background: crimson;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  #div_mob:hover {
+    box-shadow: #fff 0px 3px 8px 3px;
+  }
+}

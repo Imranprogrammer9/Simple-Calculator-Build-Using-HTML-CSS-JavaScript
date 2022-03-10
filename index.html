@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator in JavaScript</title>
+  <!-- Stylesheet Link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive.css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet" />
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    Calculator in JavaScript
+  </header>
+  <!-- Outside Container -->
+  <div class="container">
+    <!-- Inner Container -->
+    <div class="calc-inner">
+      <!-- Heading -->
+      <div class="calc-heading">
+        <p>Calculator Using <br> HTML CSS JS</p>
+      </div>
+      <!-- Form -->
+      <div class="form">
+        <div class="cell">
+          <label>Enter First Number Here</label>
+          <input type="text" id="Num1" value="" />
+        </div>
+        <div class="cell">
+          <label>Enter Second Number Here</label>
+          <input type="text" id="Num2" value="" />
+        </div>
+        <div class="cell">
+          <label>Result</label>
+          <input type="text" id="result" value="" />
+        </div>
+      </div>
+      <!-- Buttons -->
+      <div class="buttons">
+        <div class="btn">
+          <button id="add" onclick="sum()">ADD</button>
+        </div>
+        <div class="btn">
+          <button id="subt" onclick="subt()">SUBTRACT</button>
+        </div>
+        <div class="btn">
+          <button id="mult" onclick="mult()">MULTIPLY</button>
+        </div>
+        <div class="btn">
+          <button id="div" onclick="divide()">DIVISION</button>
+        </div>
+      </div>
+      <!-- Mobile Buttons -->
+      <div class="buttons_mob">
+        <div class="btn_mob">
+          <button id="add_mob" onclick="sum()">ADDITION</button>
+          <button id="subt_mob" onclick="subt()">SUBTRACT</button>
+        </div>
+        <div class="btn_mob">
+          <button id="mult_mob" onclick="mult()">MULTIPLY</button>
+          <button id="div_mob" onclick="divide()">DIVISION</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    Created by Imran Haider
+  </footer>
+</body>
+<!-- JavaScript File -->
+<script src="js/script.js" charset="utf-8"></script>
+
+</html>

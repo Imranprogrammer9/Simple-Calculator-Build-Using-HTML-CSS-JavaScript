@@ -1,0 +1,130 @@
+/* CSS Variables Declaration */
+:root {
+  --font-family: "Fredoka", sans-serif;
+}
+/* Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #acacac;
+}
+/* Header Styling */
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+/* Outside Container */
+.container {
+  font-family: var(--font-family);
+  height: 89.1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+/* Calculator Heading */
+.calc-heading p {
+  text-align: center;
+  font-size: 30px;
+}
+/* Inside Container */
+.calc-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+/* Cell Styling */
+.cell {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+/* Label Styling */
+.cell label {
+  text-align: center;
+  font-size: 20px;
+}
+/* Input Text Box Styling */
+input[type="text"] {
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+/* Buttons Styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* Add Button */
+#add {
+  background-color: green;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+#add:hover {
+  box-shadow: #fff 0px 3px 8px 3px;
+}
+/* Subtraction Button */
+#subt {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+#subt:hover {
+  box-shadow: #fff 0px 3px 8px 3px;
+}
+/* Multiply Button */
+#mult {
+  background: blue;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+#mult:hover {
+  box-shadow: #fff 0px 3px 8px 3px;
+}
+/* Divide Button */
+#div {
+  background: crimson;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+#div:hover {
+  box-shadow: #fff 0px 3px 8px 3px;
+}
+/* Mobile Button */
+.buttons_mob {
+  display: none;
+}
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
