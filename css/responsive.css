@@ -1,3 +1,4 @@
+/* For 1024px Devices */
 @media screen and (max-width: 1024px) {
   .container {
     font-family: var(--font-family);
@@ -9,7 +10,7 @@
     margin: 10px 0px;
   }
 }
-
+/* For 768px Devices */
 @media screen and (max-width: 768px) {
   .container {
     font-family: var(--font-family);
@@ -20,7 +21,7 @@
     align-items: center;
   }
 }
-
+/* For 375px Devices */
 @media screen and (max-width: 375px) {
   .calc-inner {
     display: flex;
@@ -31,7 +32,7 @@
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   }
 }
-
+/* For 320px Devices */
 @media screen and (max-width: 320px) {
   .container {
     font-family: var(--font-family);

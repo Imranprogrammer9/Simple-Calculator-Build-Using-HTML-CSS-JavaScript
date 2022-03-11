@@ -116,7 +116,7 @@ input[type="text"] {
 #div:hover {
   box-shadow: #fff 0px 3px 8px 3px;
 }
-/* Mobile Button */
+/* Mobile View Button */
 .buttons_mob {
   display: none;
 }
