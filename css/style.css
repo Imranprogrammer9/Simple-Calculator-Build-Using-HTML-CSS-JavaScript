@@ -58,7 +58,25 @@ header {
   font-size: 20px;
 }
 /* Input Text Box Styling */
-input[type="text"] {
+input#Num1 {
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+input#Num2 {
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+input#result {
   padding: 10px;
   text-align: center;
   outline: none;
